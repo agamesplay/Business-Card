@@ -1,0 +1,60 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+   background-color:gainsboro;
+   height:100%;
+   font-family: Arial, sans-serif;
+   padding:20px;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+.card {
+   height:300px;
+   background-color:white;
+   width:80%;
+   display:grid;
+   grid-template-columns: 2fr 1fr;
+   overflow: hidden;
+   gap:20px;
+   min-width:300px;
+   max-width:600px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.522);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   border-radius: 7PX;
+}
+.info {
+   padding: 20px 0;
+}
+img {
+   height:100%;
+   width:100%;
+   object-fit:cover;
+}
+/* main work end */
+/* now second part start */
+.name {
+   padding: 0 0 20px 0;
+}
+.contact {
+   padding-top: 20px;
+}
+.name h1, h2 {
+   color: rgb(10, 2, 2);
+   padding-left: 13px;
+   font-size: 1.5em;
+}
+h4 {
+    /* text-align: center; */
+    padding-left: 70px;
+}
+p {
+    color: rgba(11, 11, 34, 0.762);
+    font-weight: 500;
+    padding-left: 13px;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
